@@ -24,5 +24,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # 添加如下的路由记录
-    path('sales/',include('sales.urls'))
+    path('sales/',include('sales.urls')),
+    path('api/mgr/', include('mgr.urls')),
 ]
