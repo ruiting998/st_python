@@ -1,0 +1,6 @@
+"GET /api/mgr/customers?action=list_customer HTTP/1.1" 200 195
+一个萌萌的请求过来了。。。。
+一个更萌的请求过来了。。。。
+这是app01里面的index视图函数
+[{'id': 1, 'name': '采血机器人', 'phonenumber': '13991825130', 'address': '江苏省常州武进市白云街44号'}]
+"GET /api/mgr/customers?action=list_customer HTTP/1.1" 200 195
