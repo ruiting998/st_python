@@ -4,6 +4,8 @@
 * ORM数据库操作
 ## 创建项目app
 
+> 添加log功能：https://blog.csdn.net/lanyang123456/article/details/75175331#:~:text=Django%20%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8logging%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97%201%20Logger%20%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8%E7%9A%84%E7%9B%B4%E6%8E%A5%E6%8E%A5%E5%8F%A3%EF%BC%8C%E5%B0%86%E6%97%A5%E5%BF%97%E4%BC%A0%E9%80%92%E7%BB%99Handler%202%20Handler,%E6%8E%A7%E5%88%B6%E6%97%A5%E5%BF%97%E8%BE%93%E5%87%BA%E5%88%B0%E5%93%AA%E9%87%8C%EF%BC%8Cconsole%EF%BC%8Cfile%E2%80%A6%20%E4%B8%80%E4%B8%AAlogger%E5%8F%AF%E4%BB%A5%E6%9C%89%E5%A4%9A%E4%B8%AAHandler%203%20Filter%20%E6%8E%A7%E5%88%B6%E5%93%AA%E4%BA%9B%E6%97%A5%E5%BF%97%E5%8F%AF%E4%BB%A5%E4%BB%8Elogger%E6%B5%81%E5%90%91Handler%204%20Formatter%20%E6%8E%A7%E5%88%B6%E6%97%A5%E5%BF%97%E7%9A%84%E6%A0%BC%E5%BC%8F
+
 * django中一个app就是项目里面的一个应用的意思
   * 一个项目包含多个app
   * 每个app本质上是一个相对独立的模块
@@ -288,3 +290,11 @@ def listcustomers(request):
 
     return HttpResponse(rendered)
 ```
+#### 列出用户
+```agsl
+def listcustomer(request):
+    qs = Customer.objects.values()
+    retlist = list(qs)
+    return JsonResponse({'ret':0,'retlist' : retlist})
+```
+

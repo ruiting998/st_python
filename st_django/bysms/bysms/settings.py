@@ -120,3 +120,33 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# 日志配置
+
+DEBUG = False  #线上环境时要关闭debug
+ALLOWED_HOSTS = ['*']   #线上环境时要允许所有ip访问，或有自己的规则
+
+#下面就是logging的配置
+import os  # 添加os 模块依赖
+# 省略其他配置
+
+# logging 简单日志配置
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs/debug.logs'),
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
