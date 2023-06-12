@@ -4,3 +4,1697 @@
 这是app01里面的index视图函数
 [{'id': 1, 'name': '采血机器人', 'phonenumber': '13991825130', 'address': '江苏省常州武进市白云街44号'}]
 "GET /api/mgr/customers?action=list_customer HTTP/1.1" 200 195
+Forbidden (CSRF cookie not set.): /api/mgr/customers
+"POST /api/mgr/customers?action=add_customer HTTP/1.1" 403 1386
+"POST /api/mgr/customers HTTP/1.1" 200 19
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+"POST /api/mgr/customers HTTP/1.1" 200 19
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+[{'id': 1, 'name': '采血机器人', 'phonenumber': '13991825130', 'address': '江苏省常州武进市白云街44号'}, {'id': 2, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}]
+"GET /api/mgr/customers?action=list_customer HTTP/1.1" 200 523
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'action'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 14, in dispatcher
+    action = request.params['action']
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'action'
+"GET /api/mgr/customers HTTP/1.1" 500 27
+"PUT /api/mgr/customers HTTP/1.1" 200 10
+"PUT /api/mgr/customers HTTP/1.1" 200 57
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 41, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 20, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 43, in modifycustomer
+    except Customer.DoseNotExist:
+AttributeError: type object 'Customer' has no attribute 'DoseNotExist'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 41, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 20, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 42, in modifycustomer
+    except Customer.DoseNotExist:
+AttributeError: type object 'Customer' has no attribute 'DoseNotExist'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 41, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 20, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 42, in modifycustomer
+    except Customer.object.DoseNotExist:
+AttributeError: type object 'Customer' has no attribute 'object'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 41, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 20, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 43, in modifycustomer
+    except Customer.DoseNotExist:
+AttributeError: type object 'Customer' has no attribute 'DoseNotExist'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 42, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 20, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 44, in modifycustomer
+    except Customer.DoseNotExist:
+AttributeError: type object 'Customer' has no attribute 'DoseNotExist'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 20, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 56, in modifycustomer
+    customer.save()
+AttributeError: 'QuerySet' object has no attribute 'save'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+"PUT /api/mgr/customers HTTP/1.1" 200 57
+"PUT /api/mgr/customers HTTP/1.1" 200 57
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "D:\Python_envs\python37\lib\site-packages\django\middleware\common.py", line 105, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "D:\Python_envs\python37\lib\site-packages\django\middleware\common.py", line 105, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 22, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 43, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+"PUT /api/mgr/customers HTTP/1.1" 500 27
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"  LIMIT 21; args=()
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 22, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 43, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+"PUT /api/mgr/customers HTTP/1.1" 500 86382
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.005) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"  LIMIT 21; args=()
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 42, in modifycustomer
+    customer = Customer.objects.get(id=customerid)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 399, in get
+    self.model._meta.object_name
+common.models.Customer.DoesNotExist: Customer matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 21, in dispatcher
+    return modifycustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 44, in modifycustomer
+    except customer.DoesNotExist:
+UnboundLocalError: local variable 'customer' referenced before assignment
+"PUT /api/mgr/customers HTTP/1.1" 500 90924
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "D:\Python_envs\python37\lib\site-packages\django\middleware\common.py", line 105, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+"PUT /api/mgr/customers HTTP/1.1" 500 67078
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "D:\Python_envs\python37\lib\site-packages\django\middleware\common.py", line 105, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+"PUT /api/mgr/customers HTTP/1.1" 500 67078
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "D:\Python_envs\python37\lib\site-packages\django\middleware\common.py", line 105, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+"PUT /api/mgr/customers HTTP/1.1" 500 67078
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "D:\Python_envs\python37\lib\site-packages\django\middleware\common.py", line 105, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+"PUT /api/mgr/customers HTTP/1.1" 500 67078
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "common_customer" ("name", "phonenumber", "address") VALUES ('武汉市桥西医院', '13345679934', '武汉市桥西医院北路'); args=['武汉市桥西医院', '13345679934', '武汉市桥西医院北路']
+"POST /api/mgr/customers HTTP/1.1" 200 19
+(0.002) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_response(request, response)
+  File "D:\Python_envs\python37\lib\site-packages\django\middleware\common.py", line 105, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+"PUT /api/mgr/customers HTTP/1.1" 500 67078
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+"PUT /api/mgr/customers HTTP/1.1" 200 63
+(0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 4, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}]
+"GET /api/mgr/customers?action=list_customer HTTP/1.1" 200 679
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 4, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}]
+"GET /api/mgr/customers?action=list_customer HTTP/1.1" 200 679
+(0.000) BEGIN; args=None
+(0.005) INSERT INTO "common_customer" ("name", "phonenumber", "address") VALUES ('武汉市桥西医院', '13345679934', '武汉市桥西医院北路'); args=['武汉市桥西医院', '13345679934', '武汉市桥西医院北路']
+"POST /api/mgr/customers HTTP/1.1" 200 19
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 4, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 5, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}]
+"GET /api/mgr/customers?action=list_customer HTTP/1.1" 200 843
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET /mgr/index.html HTTP/1.1" 200 10433
+"GET /wm.css HTTP/1.1" 200 11391
+"GET /mgr/index.js?30194df7752349b70b82 HTTP/1.1" 200 172578
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 4, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 5, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}]
+"GET /api/mgr/customers?action=list_customer&_=1686466371993 HTTP/1.1" 200 843
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "common_customer" ("name", "phonenumber", "address") VALUES ('我打野', '13398201192', '峡谷坑'); args=['我打野', '13398201192', '峡谷坑']
+"POST /api/mgr/customers HTTP/1.1" 200 19
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 4, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 5, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 6, 'name': '我打野', 'phonenumber': '13398201192', 'address': '峡谷坑'}]
+"GET /api/mgr/customers?action=list_customer&_=1686466371994 HTTP/1.1" 200 947
+Not Found: /api/mgr/medicines
+"GET /api/mgr/medicines?action=list_medicine&_=1686466371995 HTTP/1.1" 404 1866
+Not Found: /api/mgr/medicines
+Not Found: /api/mgr/orders
+"GET /api/mgr/medicines?action=list_medicine&_=1686466371996 HTTP/1.1" 404 1866
+"GET /api/mgr/orders?action=list_order&_=1686466371997 HTTP/1.1" 404 1854
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 06:53:49.804860' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 06:53:49.804860', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 24, in dispatcher
+    return deletecustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 65, in deletecustomer
+    customer = Customer.object.get(id=customerid)
+AttributeError: type object 'Customer' has no attribute 'object'
+"DELETE /api/mgr/customers HTTP/1.1" 500 20600
+Internal Server Error: /api/mgr/customers
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 24, in dispatcher
+    return deletecustomer(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\customer.py", line 65, in deletecustomer
+    customer = Customer.object.get(id=customerid)
+AttributeError: type object 'Customer' has no attribute 'object'
+"DELETE /api/mgr/customers HTTP/1.1" 500 77748
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:02:46.992793' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:02:46.992793', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+Exception while resolving variable 'is_popup' in template 'admin/app_index.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "D:\Python_envs\python37\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000018C1B099F78>>, 'request': <WSGIRequest: GET '/admin/common/'>, 'user': <SimpleLazyObject: <User: byhy>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000018C1B114F08>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000018C1AFAC888>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Common', 'app_label': 'common', 'app_url': '/admin/common/', 'has_module_perms': True, 'models': [{'name': 'Customers', 'object_name': 'Customer', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/common/customer/', 'add_url': '/admin/common/customer/add/'}]}], 'title': 'Common administration', 'app_list': [{'name': 'Common', 'app_label': 'common', 'app_url': '/admin/common/', 'has_module_perms': True, 'models': [{'name': 'Customers', 'object_name': 'Customer', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/common/customer/', 'add_url': '/admin/common/customer/add/'}]}], 'app_label': 'common', 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/app_index.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "D:\Python_envs\python37\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000018C1B099F78>>, 'request': <WSGIRequest: GET '/admin/common/'>, 'user': <SimpleLazyObject: <User: byhy>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000018C1B114F08>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000018C1AFAC888>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Common', 'app_label': 'common', 'app_url': '/admin/common/', 'has_module_perms': True, 'models': [{'name': 'Customers', 'object_name': 'Customer', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/common/customer/', 'add_url': '/admin/common/customer/add/'}]}], 'title': 'Common administration', 'app_list': [{'name': 'Common', 'app_label': 'common', 'app_url': '/admin/common/', 'has_module_perms': True, 'models': [{'name': 'Customers', 'object_name': 'Customer', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'view_only': False, 'admin_url': '/admin/common/customer/', 'add_url': '/admin/common/customer/add/'}]}], 'app_label': 'common', 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+"GET /admin/common/ HTTP/1.1" 200 2448
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:02:48.418392' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:02:48.418392', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.001) SELECT COUNT(*) AS "__count" FROM "common_customer"; args=()
+(0.000) SELECT COUNT(*) AS "__count" FROM "common_customer"; args=()
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" ORDER BY "common_customer"."id" DESC; args=()
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "D:\Python_envs\python37\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000018C1B192EE8>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/common/customer/ HTTP/1.1" 200 5534
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:02:48.594672' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:02:48.594672', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+"GET /static/admin/js/core.js HTTP/1.1" 200 7135
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+"GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:02:53.637676' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:02:53.637676', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) BEGIN; args=None
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 6; args=(6,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'customer'); args=('common', 'customer')
+"GET /admin/common/customer/6/change/ HTTP/1.1" 200 5263
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:02:53.731014' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:02:53.731014', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:02:55.793257' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:02:55.793257', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "common_customer"; args=()
+(0.000) SELECT COUNT(*) AS "__count" FROM "common_customer"; args=()
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" ORDER BY "common_customer"."id" DESC; args=()
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "D:\Python_envs\python37\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000018C1B11C558>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/common/customer/ HTTP/1.1" 200 5534
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 5; args=(5,)
+(0.000) BEGIN; args=None
+(0.004) DELETE FROM "common_customer" WHERE "common_customer"."id" IN (5); args=(5,)
+"DELETE /api/mgr/customers HTTP/1.1" 200 57
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 4, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 6, 'name': '我打野', 'phonenumber': '13398201192', 'address': '峡谷坑'}]
+"GET /api/mgr/customers?action=list_customer&_=1686466371998 HTTP/1.1" 200 783
+(0.001) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer" WHERE "common_customer"."id" = 4; args=(4,)
+(0.000) BEGIN; args=None
+(0.005) DELETE FROM "common_customer" WHERE "common_customer"."id" IN (4); args=(4,)
+"DELETE /api/mgr/customers HTTP/1.1" 200 57
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 6, 'name': '我打野', 'phonenumber': '13398201192', 'address': '峡谷坑'}]
+"GET /api/mgr/customers?action=list_customer&_=1686466371999 HTTP/1.1" 200 619
+Not Found: /api/mgr/signout
+"POST /api/mgr/signout HTTP/1.1" 404 1820
+"GET /mgr/sign.html HTTP/1.1" 200 6429
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'byhy'; args=('byhy',)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:18:18.201802' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:18:18.201802', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.000) BEGIN; args=None
+(0.006) UPDATE "auth_user" SET "last_login" = '2023-06-11 07:18:18.204172' WHERE "auth_user"."id" = 1; args=('2023-06-11 07:18:18.204172', 1)
+(0.000) BEGIN; args=None
+(0.001) UPDATE "django_session" SET "session_data" = 'OGMxYzg0NmMyNzY0ODU1YjAyOWUxMDM0MDljYTJhNTM2ODlkZjAxMzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkYTc3NGE1ODllNTUxMGE5MjAwODQxOWE3MzFmYzllMWY4ZDYxYzQzIiwidXNlcnR5cGUiOiJtZ3IifQ==', "expire_date" = '2023-06-25 07:18:18.213543' WHERE "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'; args=('OGMxYzg0NmMyNzY0ODU1YjAyOWUxMDM0MDljYTJhNTM2ODlkZjAxMzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkYTc3NGE1ODllNTUxMGE5MjAwODQxOWE3MzFmYzllMWY4ZDYxYzQzIiwidXNlcnR5cGUiOiJtZ3IifQ==', '2023-06-25 07:18:18.213543', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+"POST /api/mgr/signin HTTP/1.1" 200 45
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 6, 'name': '我打野', 'phonenumber': '13398201192', 'address': '峡谷坑'}]
+"GET /api/mgr/customers?action=list_customer&_=1686467898279 HTTP/1.1" 200 619
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 07:18:20.987446' AND "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('2023-06-11 07:18:20.987446', 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 't1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'; args=('t1ssg2znxcdcey4pwmtkl5a7e8dtfbxp',)
+(0.000) BEGIN; args=None
+(0.004) DELETE FROM "django_session" WHERE "django_session"."session_key" IN ('t1ssg2znxcdcey4pwmtkl5a7e8dtfbxp'); args=('t1ssg2znxcdcey4pwmtkl5a7e8dtfbxp',)
+"POST /api/mgr/signout HTTP/1.1" 200 10
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) PRAGMA foreign_keys = OFF; args=None
+(0.000) PRAGMA foreign_keys; args=None
+(0.000) PRAGMA legacy_alter_table = ON; args=None
+(0.000) BEGIN; args=None
+CREATE TABLE "common_medicine" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(200) NOT NULL, "sn" varchar(200) NOT NULL, "desc" varchar(200) NOT NULL); (params None)
+(0.001) CREATE TABLE "common_medicine" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(200) NOT NULL, "sn" varchar(200) NOT NULL, "desc" varchar(200) NOT NULL); args=None
+CREATE TABLE "common_order" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(200) NULL, "create_data" datetime NOT NULL, "customer_id" integer NOT NULL REFERENCES "common_customer" ("id") DEFERRABLE INITIALLY DEFERRED); (params None)
+(0.000) CREATE TABLE "common_order" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(200) NULL, "create_data" datetime NOT NULL, "customer_id" integer NOT NULL REFERENCES "common_customer" ("id") DEFERRABLE INITIALLY DEFERRED); args=None
+CREATE TABLE "common_ordermedicine" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "amount" integer unsigned NOT NULL, "medicine_id" integer NOT NULL REFERENCES "common_medicine" ("id") DEFERRABLE INITIALLY DEFERRED, "order_id" integer NOT NULL REFERENCES "common_order" ("id") DEFERRABLE INITIALLY DEFERRED); (params None)
+(0.000) CREATE TABLE "common_ordermedicine" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "amount" integer unsigned NOT NULL, "medicine_id" integer NOT NULL REFERENCES "common_medicine" ("id") DEFERRABLE INITIALLY DEFERRED, "order_id" integer NOT NULL REFERENCES "common_order" ("id") DEFERRABLE INITIALLY DEFERRED); args=None
+ALTER TABLE "common_order" RENAME TO "common_order__old"; (params ())
+(0.001) ALTER TABLE "common_order" RENAME TO "common_order__old"; args=()
+CREATE TABLE "common_order" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(200) NULL, "create_data" datetime NOT NULL, "customer_id" integer NOT NULL REFERENCES "common_customer" ("id") DEFERRABLE INITIALLY DEFERRED); (params None)
+(0.001) CREATE TABLE "common_order" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(200) NULL, "create_data" datetime NOT NULL, "customer_id" integer NOT NULL REFERENCES "common_customer" ("id") DEFERRABLE INITIALLY DEFERRED); args=None
+INSERT INTO "common_order" ("id", "name", "create_data", "customer_id") SELECT "id", "name", "create_data", "customer_id" FROM "common_order__old"; (params ())
+(0.000) INSERT INTO "common_order" ("id", "name", "create_data", "customer_id") SELECT "id", "name", "create_data", "customer_id" FROM "common_order__old"; args=()
+DROP TABLE "common_order__old"; (params ())
+(0.000) DROP TABLE "common_order__old"; args=()
+CREATE INDEX "common_ordermedicine_medicine_id_ed871559" ON "common_ordermedicine" ("medicine_id"); (params ())
+(0.000) CREATE INDEX "common_ordermedicine_medicine_id_ed871559" ON "common_ordermedicine" ("medicine_id"); args=()
+CREATE INDEX "common_ordermedicine_order_id_9d053cbf" ON "common_ordermedicine" ("order_id"); (params ())
+(0.000) CREATE INDEX "common_ordermedicine_order_id_9d053cbf" ON "common_ordermedicine" ("order_id"); args=()
+CREATE INDEX "common_order_customer_id_8f4f8b04" ON "common_order" ("customer_id"); (params ())
+(0.000) CREATE INDEX "common_order_customer_id_8f4f8b04" ON "common_order" ("customer_id"); args=()
+(0.000) PRAGMA legacy_alter_table = OFF; args=None
+(0.000) PRAGMA foreign_keys = ON; args=None
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "django_migrations" ("app", "name", "applied") VALUES ('common', '0002_auto_20230611_1806', '2023-06-11 10:07:17.958421'); args=['common', '0002_auto_20230611_1806', '2023-06-11 10:07:17.958421']
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'admin' AND "django_content_type"."model" = 'logentry'); args=('admin', 'logentry')
+(0.001) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (1) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(1,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'permission'); args=('auth', 'permission')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'group'); args=('auth', 'group')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'user'); args=('auth', 'user')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (2, 3, 4) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(2, 3, 4)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'contenttypes' AND "django_content_type"."model" = 'contenttype'); args=('contenttypes', 'contenttype')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (5) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(5,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'sessions' AND "django_content_type"."model" = 'session'); args=('sessions', 'session')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (6) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(6,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'order'); args=('common', 'order')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'order'); args=('common', 'order')
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "django_content_type" ("app_label", "model") VALUES ('common', 'order'); args=['common', 'order']
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'customer'); args=('common', 'customer')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'ordermedicine'); args=('common', 'ordermedicine')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'ordermedicine'); args=('common', 'ordermedicine')
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "django_content_type" ("app_label", "model") VALUES ('common', 'ordermedicine'); args=['common', 'ordermedicine']
+(0.001) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'medicine'); args=('common', 'medicine')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'medicine'); args=('common', 'medicine')
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "django_content_type" ("app_label", "model") VALUES ('common', 'medicine'); args=['common', 'medicine']
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (8, 9, 10, 7) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(8, 9, 10, 7)
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "auth_permission" ("name", "content_type_id", "codename") SELECT 'Can add order', 8, 'add_order' UNION ALL SELECT 'Can change order', 8, 'change_order' UNION ALL SELECT 'Can delete order', 8, 'delete_order' UNION ALL SELECT 'Can view order', 8, 'view_order' UNION ALL SELECT 'Can add order medicine', 9, 'add_ordermedicine' UNION ALL SELECT 'Can change order medicine', 9, 'change_ordermedicine' UNION ALL SELECT 'Can delete order medicine', 9, 'delete_ordermedicine' UNION ALL SELECT 'Can view order medicine', 9, 'view_ordermedicine' UNION ALL SELECT 'Can add medicine', 10, 'add_medicine' UNION ALL SELECT 'Can change medicine', 10, 'change_medicine' UNION ALL SELECT 'Can delete medicine', 10, 'delete_medicine' UNION ALL SELECT 'Can view medicine', 10, 'view_medicine'; args=('Can add order', 8, 'add_order', 'Can change order', 8, 'change_order', 'Can delete order', 8, 'delete_order', 'Can view order', 8, 'view_order', 'Can add order medicine', 9, 'add_ordermedicine', 'Can change order medicine', 9, 'change_ordermedicine', 'Can delete order medicine', 9, 'delete_ordermedicine', 'Can view order medicine', 9, 'view_ordermedicine', 'Can add medicine', 10, 'add_medicine', 'Can change medicine', 10, 'change_medicine', 'Can delete medicine', 10, 'delete_medicine', 'Can view medicine', 10, 'view_medicine')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'common'; args=('common',)
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'byhy'; args=('byhy',)
+(0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'  LIMIT 1; args=('y9x01svwb8aah23wtr8cxaaiahtbw1o8',)
+(0.000) BEGIN; args=None
+(0.007) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'y9x01svwb8aah23wtr8cxaaiahtbw1o8', 'OGI5YjZjM2I3NGRlNmE2MTkzMjE5NTQ4NjBiNjJlMTI2NDA0M2Y2Zjp7fQ==', '2023-06-25 10:26:16.262968'; args=('y9x01svwb8aah23wtr8cxaaiahtbw1o8', 'OGI5YjZjM2I3NGRlNmE2MTkzMjE5NTQ4NjBiNjJlMTI2NDA0M2Y2Zjp7fQ==', '2023-06-25 10:26:16.262968')
+(0.000) BEGIN; args=None
+(0.000) UPDATE "auth_user" SET "last_login" = '2023-06-11 10:26:16.272856' WHERE "auth_user"."id" = 1; args=('2023-06-11 10:26:16.272856', 1)
+(0.000) BEGIN; args=None
+(0.000) UPDATE "django_session" SET "session_data" = 'OGMxYzg0NmMyNzY0ODU1YjAyOWUxMDM0MDljYTJhNTM2ODlkZjAxMzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkYTc3NGE1ODllNTUxMGE5MjAwODQxOWE3MzFmYzllMWY4ZDYxYzQzIiwidXNlcnR5cGUiOiJtZ3IifQ==', "expire_date" = '2023-06-25 10:26:16.272856' WHERE "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'; args=('OGMxYzg0NmMyNzY0ODU1YjAyOWUxMDM0MDljYTJhNTM2ODlkZjAxMzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkYTc3NGE1ODllNTUxMGE5MjAwODQxOWE3MzFmYzllMWY4ZDYxYzQzIiwidXNlcnR5cGUiOiJtZ3IifQ==', '2023-06-25 10:26:16.272856', 'y9x01svwb8aah23wtr8cxaaiahtbw1o8')
+"POST /api/mgr/signin HTTP/1.1" 200 45
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 10:26:16.394606' AND "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'); args=('2023-06-11 10:26:16.394606', 'y9x01svwb8aah23wtr8cxaaiahtbw1o8')
+(0.000) SELECT "common_customer"."id", "common_customer"."name", "common_customer"."phonenumber", "common_customer"."address" FROM "common_customer"; args=()
+[{'id': 1, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 2, 'name': '武汉市桥北医院', 'phonenumber': '13345678888', 'address': '武汉市桥北医院北路'}, {'id': 3, 'name': '武汉市桥西医院', 'phonenumber': '13345679934', 'address': '武汉市桥西医院北路'}, {'id': 6, 'name': '我打野', 'phonenumber': '13398201192', 'address': '峡谷坑'}]
+"GET /api/mgr/customers?action=list_customer&_=1686479176348 HTTP/1.1" 200 619
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 10:26:17.947050' AND "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'); args=('2023-06-11 10:26:17.947050', 'y9x01svwb8aah23wtr8cxaaiahtbw1o8')
+(0.002) SELECT "common_medicine"."id", "common_medicine"."name", "common_medicine"."sn", "common_medicine"."desc" FROM "common_medicine"; args=()
+"GET /api/mgr/medicines?action=list_medicine&_=1686479176349 HTTP/1.1" 200 25
+(0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 10:26:25.230995' AND "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'); args=('2023-06-11 10:26:25.230995', 'y9x01svwb8aah23wtr8cxaaiahtbw1o8')
+(0.000) BEGIN; args=None
+(0.005) INSERT INTO "common_medicine" ("name", "sn", "desc") VALUES ('name', '12', ''); args=['name', '12', '']
+"POST /api/mgr/medicines HTTP/1.1" 200 19
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 10:26:25.250073' AND "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'); args=('2023-06-11 10:26:25.250073', 'y9x01svwb8aah23wtr8cxaaiahtbw1o8')
+(0.000) SELECT "common_medicine"."id", "common_medicine"."name", "common_medicine"."sn", "common_medicine"."desc" FROM "common_medicine"; args=()
+"GET /api/mgr/medicines?action=list_medicine&_=1686479176350 HTTP/1.1" 200 74
+Not Found: /api/mgr/orders
+"GET /api/mgr/orders?action=list_order&_=1686479176351 HTTP/1.1" 404 1854
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) PRAGMA foreign_keys = OFF; args=None
+(0.000) PRAGMA foreign_keys; args=None
+(0.000) PRAGMA legacy_alter_table = ON; args=None
+(0.000) BEGIN; args=None
+CREATE TABLE "common_country" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL); (params None)
+(0.003) CREATE TABLE "common_country" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL); args=None
+CREATE TABLE "common_student" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL, "grade" integer unsigned NOT NULL, "country_id" integer NOT NULL REFERENCES "common_country" ("id") DEFERRABLE INITIALLY DEFERRED); (params None)
+(0.000) CREATE TABLE "common_student" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "name" varchar(100) NOT NULL, "grade" integer unsigned NOT NULL, "country_id" integer NOT NULL REFERENCES "common_country" ("id") DEFERRABLE INITIALLY DEFERRED); args=None
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) PRAGMA foreign_key_list("auth_group"); args=None
+(0.000) PRAGMA foreign_key_list("auth_group_permissions"); args=None
+(0.000) PRAGMA foreign_key_list("auth_permission"); args=None
+(0.000) PRAGMA foreign_key_list("auth_user"); args=None
+(0.000) PRAGMA foreign_key_list("auth_user_groups"); args=None
+(0.000) PRAGMA foreign_key_list("auth_user_user_permissions"); args=None
+(0.000) PRAGMA foreign_key_list("common_country"); args=None
+(0.000) PRAGMA foreign_key_list("common_customer"); args=None
+(0.000) PRAGMA foreign_key_list("common_medicine"); args=None
+(0.000) PRAGMA foreign_key_list("common_ordermedicine"); args=None
+(0.000) PRAGMA foreign_key_list("common_student"); args=None
+(0.000) PRAGMA foreign_key_list("django_admin_log"); args=None
+(0.000) PRAGMA foreign_key_list("django_content_type"); args=None
+(0.000) PRAGMA foreign_key_list("django_migrations"); args=None
+(0.000) PRAGMA foreign_key_list("django_session"); args=None
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) PRAGMA foreign_key_list("auth_group"); args=None
+(0.000) PRAGMA foreign_key_list("auth_group_permissions"); args=None
+(0.000) PRAGMA foreign_key_list("auth_permission"); args=None
+(0.000) PRAGMA foreign_key_list("auth_user"); args=None
+(0.000) PRAGMA foreign_key_list("auth_user_groups"); args=None
+(0.000) PRAGMA foreign_key_list("auth_user_user_permissions"); args=None
+(0.000) PRAGMA foreign_key_list("common_country"); args=None
+(0.000) PRAGMA foreign_key_list("common_customer"); args=None
+(0.000) PRAGMA foreign_key_list("common_medicine"); args=None
+(0.000) PRAGMA foreign_key_list("common_order"); args=None
+(0.000) PRAGMA foreign_key_list("common_student"); args=None
+(0.000) PRAGMA foreign_key_list("django_admin_log"); args=None
+(0.000) PRAGMA foreign_key_list("django_content_type"); args=None
+(0.000) PRAGMA foreign_key_list("django_migrations"); args=None
+(0.000) PRAGMA foreign_key_list("django_session"); args=None
+ALTER TABLE "common_ordermedicine" RENAME TO "common_ordermedicine__old"; (params ())
+(0.000) ALTER TABLE "common_ordermedicine" RENAME TO "common_ordermedicine__old"; args=()
+CREATE TABLE "common_ordermedicine" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "amount" integer unsigned NOT NULL, "order_id" integer NOT NULL REFERENCES "common_order" ("id") DEFERRABLE INITIALLY DEFERRED, "medicine_id" integer NOT NULL REFERENCES "common_medicine" ("id") DEFERRABLE INITIALLY DEFERRED); (params None)
+(0.000) CREATE TABLE "common_ordermedicine" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "amount" integer unsigned NOT NULL, "order_id" integer NOT NULL REFERENCES "common_order" ("id") DEFERRABLE INITIALLY DEFERRED, "medicine_id" integer NOT NULL REFERENCES "common_medicine" ("id") DEFERRABLE INITIALLY DEFERRED); args=None
+INSERT INTO "common_ordermedicine" ("id", "amount", "order_id", "medicine_id") SELECT "id", "amount", "order_id", "medicine.py_id" FROM "common_ordermedicine__old"; (params ())
+(0.000) INSERT INTO "common_ordermedicine" ("id", "amount", "order_id", "medicine_id") SELECT "id", "amount", "order_id", "medicine.py_id" FROM "common_ordermedicine__old"; args=()
+DROP TABLE "common_ordermedicine__old"; (params ())
+(0.000) DROP TABLE "common_ordermedicine__old"; args=()
+CREATE INDEX "common_student_country_id_2d764f09" ON "common_student" ("country_id"); (params ())
+(0.000) CREATE INDEX "common_student_country_id_2d764f09" ON "common_student" ("country_id"); args=()
+CREATE INDEX "common_ordermedicine_order_id_9d053cbf" ON "common_ordermedicine" ("order_id"); (params ())
+(0.000) CREATE INDEX "common_ordermedicine_order_id_9d053cbf" ON "common_ordermedicine" ("order_id"); args=()
+CREATE INDEX "common_ordermedicine_medicine_id_ed871559" ON "common_ordermedicine" ("medicine_id"); (params ())
+(0.000) CREATE INDEX "common_ordermedicine_medicine_id_ed871559" ON "common_ordermedicine" ("medicine_id"); args=()
+(0.000) PRAGMA legacy_alter_table = OFF; args=None
+(0.000) PRAGMA foreign_keys = ON; args=None
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "django_migrations" ("app", "name", "applied") VALUES ('common', '0003_auto_20230611_1831', '2023-06-11 10:31:55.005781'); args=['common', '0003_auto_20230611_1831', '2023-06-11 10:31:55.005781']
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'admin' AND "django_content_type"."model" = 'logentry'); args=('admin', 'logentry')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (1) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(1,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'permission'); args=('auth', 'permission')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'group'); args=('auth', 'group')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'user'); args=('auth', 'user')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (2, 3, 4) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(2, 3, 4)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'contenttypes' AND "django_content_type"."model" = 'contenttype'); args=('contenttypes', 'contenttype')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (5) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(5,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'sessions' AND "django_content_type"."model" = 'session'); args=('sessions', 'session')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (6) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(6,)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',)
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'student'); args=('common', 'student')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'student'); args=('common', 'student')
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "django_content_type" ("app_label", "model") VALUES ('common', 'student'); args=['common', 'student']
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'country'); args=('common', 'country')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'country'); args=('common', 'country')
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "django_content_type" ("app_label", "model") VALUES ('common', 'country'); args=['common', 'country']
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'order'); args=('common', 'order')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'ordermedicine'); args=('common', 'ordermedicine')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'medicine'); args=('common', 'medicine')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'common' AND "django_content_type"."model" = 'customer'); args=('common', 'customer')
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (7, 8, 9, 10, 11, 12) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(7, 8, 9, 10, 11, 12)
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "auth_permission" ("name", "content_type_id", "codename") SELECT 'Can add student', 11, 'add_student' UNION ALL SELECT 'Can change student', 11, 'change_student' UNION ALL SELECT 'Can delete student', 11, 'delete_student' UNION ALL SELECT 'Can view student', 11, 'view_student' UNION ALL SELECT 'Can add country', 12, 'add_country' UNION ALL SELECT 'Can change country', 12, 'change_country' UNION ALL SELECT 'Can delete country', 12, 'delete_country' UNION ALL SELECT 'Can view country', 12, 'view_country'; args=('Can add student', 11, 'add_student', 'Can change student', 11, 'change_student', 'Can delete student', 11, 'delete_student', 'Can view student', 11, 'view_student', 'Can add country', 12, 'add_country', 'Can change country', 12, 'change_country', 'Can delete country', 12, 'delete_country', 'Can view country', 12, 'view_country')
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'common'; args=('common',)
+(0.000) BEGIN; args=None
+(0.003) INSERT INTO "common_country" ("name") VALUES ('中国'); args=['中国']
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_country" ("name") VALUES ('美国'); args=['美国']
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_country" ("name") VALUES ('法国'); args=['法国']
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('白月', 1, 1); args=['白月', 1, 1]
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('黑羽', 2, 1); args=['黑羽', 2, 1]
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('大罗', 1, 1); args=['大罗', 1, 1]
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('真佛', 2, 1); args=['真佛', 2, 1]
+(0.000) BEGIN; args=None
+(0.005) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('Mike', 1, 2); args=['Mike', 1, 2]
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('Gus', 1, 2); args=['Gus', 1, 2]
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('White', 2, 2); args=['White', 2, 2]
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('Napolen', 2, 3); args=['Napolen', 2, 3]
+(0.000) BEGIN; args=None
+(0.004) INSERT INTO "common_country" ("name") VALUES ('中国'); args=['中国']
+(0.000) BEGIN; args=None
+(0.005) INSERT INTO "common_country" ("name") VALUES ('美国'); args=['美国']
+(0.000) BEGIN; args=None
+(0.004) INSERT INTO "common_country" ("name") VALUES ('法国'); args=['法国']
+(0.000) BEGIN; args=None
+(0.000) INSERT INTO "common_student" ("name", "grade", "country_id") VALUES ('白月', 1, 4); args=['白月', 1, 4]
+(0.000) SELECT "common_student"."id", "common_student"."name", "common_student"."grade", "common_student"."country_id" FROM "common_student" WHERE "common_student"."name" = '白月'; args=('白月',)
+(0.005) SELECT "common_student"."id", "common_student"."name", "common_student"."grade", "common_student"."country_id" FROM "common_student" WHERE "common_student"."name" = '黑羽'; args=('黑羽',)
+(0.000) SELECT "common_country"."id", "common_country"."name" FROM "common_country" WHERE "common_country"."id" = 1; args=(1,)
+(0.000) SELECT "common_student"."id", "common_student"."name", "common_student"."grade", "common_student"."country_id" FROM "common_student" WHERE "common_student"."grade" = 1  LIMIT 21; args=(1,)
+(0.000) SELECT "common_student"."id", "common_student"."name", "common_student"."grade", "common_student"."country_id" FROM "common_student" INNER JOIN "common_country" ON ("common_student"."country_id" = "common_country"."id") WHERE ("common_country"."name" = '中国' AND "common_student"."grade" = 1)  LIMIT 21; args=('中国', 1)
+(0.000) SELECT "common_student"."name", "common_country"."name" FROM "common_student" INNER JOIN "common_country" ON ("common_student"."country_id" = "common_country"."id") WHERE ("common_country"."name" = '中国' AND "common_student"."grade" = 1)  LIMIT 21; args=('中国', 1)
+(0.000) SELECT "common_student"."name", "common_country"."name" FROM "common_student" INNER JOIN "common_country" ON ("common_student"."country_id" = "common_country"."id") WHERE ("common_country"."name" = '中国' AND "common_student"."grade" = 1)  LIMIT 21; args=('中国', 1)
+(0.000) SELECT "common_country"."name" AS "countryname", "common_student"."name" AS "studentname" FROM "common_student" INNER JOIN "common_country" ON ("common_student"."country_id" = "common_country"."id") WHERE "common_student"."grade" = 1  LIMIT 21; args=(1,)
+(0.000) SELECT "common_country"."name" AS "countryname", "common_student"."name" AS "studentname" FROM "common_student" INNER JOIN "common_country" ON ("common_student"."country_id" = "common_country"."id") WHERE ("common_country"."name" = '中国' AND "common_student"."grade" = 1)  LIMIT 21; args=('中国', 1)
+(0.000) SELECT "common_country"."id", "common_country"."name" FROM "common_country" WHERE "common_country"."name" = '中国'; args=('中国',)
+(0.000) SELECT "common_country"."id", "common_country"."name" FROM "common_country" WHERE "common_country"."name" = '中国'; args=('中国',)
+(0.000) SELECT "common_student"."id", "common_student"."name", "common_student"."grade", "common_student"."country_id" FROM "common_student" WHERE "common_student"."country_id" IN (1, 4); args=(1, 4)
+(0.000) SELECT "common_country"."id", "common_country"."name" FROM "common_country" WHERE "common_country"."name" = '中国'; args=('中国',)
+(0.000) SELECT "common_student"."id", "common_student"."name", "common_student"."grade", "common_student"."country_id" FROM "common_student" WHERE "common_student"."country_id" IN (1, 4); args=(1, 4)
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Not Found: /api/mgr/orders
+"POST /api/mgr/orders HTTP/1.1" 404 1817
+Not Found: /api/mgr/orders
+"POST /api/mgr/orders HTTP/1.1" 404 1817
+Not Found: /api/mgr/orders
+"GET /api/mgr/orders HTTP/1.1" 404 1816
+Not Found: /api/mgr/orders
+"POST /api/mgr/orders HTTP/1.1" 404 1817
+Not Found: /api/mgr/orders
+"GET /api/mgr/orders HTTP/1.1" 404 1816
+Not Found: /api/mgr/orders
+"GET /api/mgr/orders HTTP/1.1" 404 1816
+Not Found: /api/mgr/orders
+"GET /api/mgr/orders HTTP/1.1" 404 1816
+Not Found: /api/mgr/orders
+"POST /api/mgr/orders HTTP/1.1" 404 1817
+Not Found: /api/mgr/orders
+"POST /api/mgr/orders HTTP/1.1" 404 1817
+Not Found: /api/mgr/orders
+"POST /api/mgr/orders HTTP/1.1" 404 1817
+Not Found: /api/mgr/orders
+"GET /api/mgr/orders?action=list_order&_=1686479176352 HTTP/1.1" 404 1854
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.005) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 11:52:25.179510' AND "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'); args=('2023-06-11 11:52:25.179510', 'y9x01svwb8aah23wtr8cxaaiahtbw1o8')
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+Internal Server Error: /api/mgr/orders
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\order.py", line 60, in dispatcher
+    return addorder(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\order.py", line 15, in addorder
+    order = Order.objects.get(name)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\sql\query.py", line 1161, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+"POST /api/mgr/orders HTTP/1.1" 500 21580
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2023-06-11 11:54:06.485914' AND "django_session"."session_key" = 'y9x01svwb8aah23wtr8cxaaiahtbw1o8'); args=('2023-06-11 11:54:06.485914', 'y9x01svwb8aah23wtr8cxaaiahtbw1o8')
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "common_order"."id", "common_order"."name", "common_order"."create_data", "common_order"."customer_id" FROM "common_order"  LIMIT 21; args=()
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+Internal Server Error: /api/mgr/orders
+Traceback (most recent call last):
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python_envs\python37\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\order.py", line 61, in dispatcher
+    return addorder(request)
+  File "E:\实习\测试\测试技术\python\st_python\st_django\bysms\mgr\order.py", line 15, in addorder
+    order = Order.objects.get(name)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "D:\Python_envs\python37\lib\site-packages\django\db\models\sql\query.py", line 1161, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+"POST /api/mgr/orders HTTP/1.1" 500 21580

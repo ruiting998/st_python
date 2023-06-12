@@ -297,4 +297,150 @@ def listcustomer(request):
     retlist = list(qs)
     return JsonResponse({'ret':0,'retlist' : retlist})
 ```
+#### 添加用户
+```python
+def addcustomer(request):
+    info = request.params['data']
+    record = Customer.objects.create(
+                        name=info['name'],
+                        phonenumber=info['phonenumber'],
+                        address =info['address'])
+    return JsonResponse({'ret':0,'id':record.id})
+```
+* 使用postman发送 但是报错 CSRF verification failed整数错误认证
+* Django缺省会启用CSRF(跨站请求伪造) 安全防护机制
+  * 这种情况下，Post和Put类型的请求都必须在HTTP请求头中携带用于校验的数据
+  * 需要取消CSRF的校验机制，bysms/settings.py中MIDDELEWARE配置项里注释‘django.middleware.csrf.CsrfViewMiddleware’
+```python
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+```
+打印错误栈，可以在setting中把debug 设置为true
+#### 更新数据
+```python
+ def modifycustomer(request):
+    print("修改用户...")
+    customerid=request.params['id']
+    newdata = request.params['newdata']
 
+    try:
+        # 根据id查找对应的客户记录
+        customer = Customer.objects.get(id=customerid)
+        # customer = Customer.objects.filter(id=customerid)
+    except Customer.DoesNotExist:
+        return JsonResponse({
+            'ret':1,
+            'msg':f'id `{customerid}`的客户不存在'
+        })
+    if 'name' in newdata:
+        customer.name = newdata['name']
+    if 'phonenumber' in newdata:
+        customer.phonenumber = newdata['phonenumber']
+    if 'address' in newdata:
+        customer.address = newdata['address']
+
+    # 修改数据后要保存在数据库中
+    customer.save()
+    return JsonResponse({'ret':0,'msg':'用户修改成功'})
+```
+#### 删除数据
+* 和更新一样，找到数据后添加删除操作
+* customer.delete()
+
+## 添加前端静态文件
+* 前端静态文件打包成z_dist.zip
+* 解压该文件到根目录上
+* 在/bysms/urls.py文件，添加配置
+```python
+from django.contrib import admin
+
+# 导入一个include函数
+from django.urls import path, include
+
+# 静态文件服务
+from django.conf.urls.static import static
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+
+    # 凡是 url 以 sales/  开头的，
+    # 都根据 sales.urls 里面的 子路由表进行路由
+    path('sales/', include('sales.urls')),
+
+    # 凡是 url 以 api/mgr  开头的，
+    # 都根据 mgr.urls 里面的 子路由表进行路由
+    path('api/mgr/', include('mgr.urls')),
+
+]  +  static("/", document_root="./z_dist")
+```
+就是在url路由中添加前端静态文件的查找路径
+
+## 登录登出
+- 创建mgr目录里的sign_in_out.py文件，用来管理管理员登入登出的API请求
+- Django的内置app django.contrib.auth,缺省包含在项目installedAPP中，models定义了一张auth_user
+```python
+from django.http import JsonResponse
+
+from django.contrib.auth import authenticate, login, logout
+
+# 登录处理
+def signin( request):
+    # 从 HTTP POST 请求中获取用户名、密码参数
+    userName = request.POST.get('username')
+    passWord = request.POST.get('password')
+
+    # 使用 Django auth 库里面的 方法校验用户名、密码
+    user = authenticate(username=userName, password=passWord)
+    
+    # 如果能找到用户，并且密码正确
+    if user is not None:
+        if user.is_active:
+            if user.is_superuser:
+                login(request, user)
+                # 在session中存入用户类型
+                request.session['usertype'] = 'mgr'
+
+                return JsonResponse({'ret': 0})
+            else:
+                return JsonResponse({'ret': 1, 'msg': '请使用管理员账户登录'})
+        else:
+            return JsonResponse({'ret': 0, 'msg': '用户已经被禁用'})
+        
+    # 否则就是用户名、密码有误
+    else:
+        return JsonResponse({'ret': 1, 'msg': '用户名或者密码错误'})
+
+
+# 登出处理
+def signout( request):
+    # 使用登出方法
+    logout(request)
+    return JsonResponse({'ret': 0})
+```
+
+## session 机制 和cookie
+#### session机制
+* 服务器在数据库中保存一张session表，记录了一次用户登录的相关信息
+  * 用户ID、姓名、登录名之类的
+  * django中的表名为django_session
+* 用户登录后，服务端就在数据库session表中，创建一条数据，创建一个新的session插入表中
+* 然后在登录请求的HTTP响应信息中，头字段set-Cookie中填入sessionid数据
+* 每次客户端发送请求，服务端只需查询是否有该sessionid的记录，如果不是拒绝服务
+
+---
+* 缺点：性能：用户比较多的时候，查询session表可能成为性能瓶颈；扩展；当服务部署在多个节点上时候，都要访问session表，多服务器查询影响性能
+#### token机制
+* 包含：数据信息和校验信息的数据包
+---
+* 服务器配置一个密钥，服务器私有的
+* 用户登录成功后，服务端将用户信息数据+密钥一起进行一个哈希计算，得到哈希值
+  * 数据信息+hash数值一起叫做一个字节串，token
+  * 每次用户发送数据必须带上这个token数值，如果不知道密钥，用户修改了数据也会被拒绝访问
+* 如果客户没有修改数据，服务器根据原来的数据+密钥 得到哈希值，和保存在原来的哈希值一直，就校验通过

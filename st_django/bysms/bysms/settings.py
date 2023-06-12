@@ -45,7 +45,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    #'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -124,7 +124,7 @@ STATIC_URL = '/static/'
 
 # 日志配置
 
-DEBUG = False  #线上环境时要关闭debug
+DEBUG = True  #线上环境时要关闭debug
 ALLOWED_HOSTS = ['*']   #线上环境时要允许所有ip访问，或有自己的规则
 
 #下面就是logging的配置

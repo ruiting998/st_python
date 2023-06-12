@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from django.conf.urls.static import static
 
 
 # 导入对应的处理函数
@@ -26,4 +26,5 @@ urlpatterns = [
     # 添加如下的路由记录
     path('sales/',include('sales.urls')),
     path('api/mgr/', include('mgr.urls')),
-]
+] + static("/",document_root='./z_dist')
+
